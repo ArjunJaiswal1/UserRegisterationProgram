@@ -1,17 +1,14 @@
-﻿using System;
-namespace UserRegisterationProgram
+﻿using UserRegistration;
+class program
 {
-    class program
+    static void Main(string[] args)
     {
-        static void Main(string[] args)
-        {
-            Pattern pattern = new Pattern();
-            //Console.WriteLine(pattern.validateFirstName("Arjun"));
-            //Console.WriteLine(pattern.validateLastName("Jaiswal"));
-            string a = Console.ReadLine();
-
-            Console.WriteLine(pattern.valiadtaeEmail(a));
-        }
+        Pattern pattern = new Pattern();
+        //Console.WriteLine(pattern.validateFirstName("Arjun"));
+        //Console.WriteLine(pattern.validateLastName("Jaiswal"));
+        Console.WriteLine(pattern.valiadtaeEmail("arjunjaiswal8065@gmail.com"));
+        //Console.WriteLine(pattern.valiadtaeEmail("arjunjaiswal8065@gmail.com"));     
+        Console.WriteLine(pattern.validateMobileNumber("91 9821848065"));
     }
 
 }
