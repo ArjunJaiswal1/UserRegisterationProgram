@@ -6,9 +6,10 @@ class program
         Pattern pattern = new Pattern();
         //Console.WriteLine(pattern.validateFirstName("Arjun"));
         //Console.WriteLine(pattern.validateLastName("Jaiswal"));
-        Console.WriteLine(pattern.valiadtaeEmail("arjunjaiswal8065@gmail.com"));
+        //Console.WriteLine(pattern.valiadtaeEmail("arjunjaiswal8065@gmail.com"));
         //Console.WriteLine(pattern.valiadtaeEmail("arjunjaiswal8065@gmail.com"));     
-        Console.WriteLine(pattern.validateMobileNumber("91 9821848065"));
+        //Console.WriteLine(pattern.validateMobileNumber("91 9821848065"));
+        Console.WriteLine(pattern.validatePaswordRule1("arj@12"));
     }
 
 }
