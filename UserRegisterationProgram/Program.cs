@@ -12,7 +12,8 @@ class program
         //Console.WriteLine(pattern.validatePaswordRule1("arj@12"));
         //Console.WriteLine(pattern.validatePaswordRule2("arju@345"));
 
-        Console.WriteLine(pattern.validatePaswordRule3("2@bcf"));
+        //Console.WriteLine(pattern.validatePaswordRule3("2@bcf"));
+        Console.WriteLine(pattern.validatePaswordRule4("a@8065"));
     }
 
 }
